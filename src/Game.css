@@ -1,0 +1,161 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  height: 50vh;
+  border-radius: 20px;
+  margin-left: 75vh;
+  margin-top: 20vh;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+}
+.container:hover {
+  border: 5px solid #fa1e4e;
+}
+body {
+}
+background-image:bg.png
+  color: white;
+}
+.button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+  box-shadow: 0 1px 5px 0 #e6e9ef;
+  background-image: linear-gradient(to right, #fa1e4e, skyblue);
+  color: black;
+  border-radius: 99px;
+  padding: 16px 32px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  cursor: pointer;
+  text-emphasis: none;
+  text-underline-offset: 2px;
+  text-decoration-line: none;
+}
+.button:hover {
+  border: 5px solid #fa1e4e;
+}
+
+#walletID span {
+  max-width: 90%;
+  margin: 0 auto;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+#mobileDeviceWarning {
+  display: none;
+  margin-top: 24px;
+  color: rgb(247, 47, 47);
+}
+
+#mobileDeviceWarning.show {
+  display: block;
+}
+
+.alert {
+  z-index: 10;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background: #ffffff;
+}
+
+.alert.show {
+  display: flex;
+}
+
+.alert .button {
+  margin-top: 24px;
+}
+
+/* Loading dots styles */
+@keyframes opacity {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.loadingButton {
+  pointer-events: none;
+}
+
+.loadingButton #loading {
+  display: flex;
+}
+
+#loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: rgb(153, 31, 31);
+  border-radius: 99px;
+}
+
+#loading span:not(:last-child) {
+  margin-right: 5px;
+}
+
+#loading span {
+  animation-name: opacity;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+#loading span:nth-child(2) {
+  animation-delay: 100ms;
+  animation-delay: 100ms;
+}
+
+#loading span:nth-child(3) {
+  animation-delay: 300ms;
+  animation-delay: 300ms;
+}
+.navBar {
+  height: 10vh;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 200px;
+  width: 100%;
+  background-color: red;
+  border-radius: 20px;
+  margin-top: -20px;
+}
+#navbar h1 {
+  margin-top: 10px;
+}
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.button:hover {
+  color: orange;
+}
+#gu_but {
+}
+html {
+  text-decoration-color: black;
+}
